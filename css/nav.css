@@ -1,0 +1,151 @@
+body{
+    background-repeat: no-repeat;
+    background-size: 2000px 1000px;
+    margin-left: 100px;
+    margin-top:0px;
+}
+.logo{
+    text-indent: 9999999px;
+    background: url("logo.jpg");
+    width:auto;
+    height:250px;
+    display:block;
+    background-repeat: no-repeat;
+}
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width:120%;
+    text-decoration: none;
+}
+.downward {
+    position:relative;
+    display:inline-block;
+    float:left;
+    width:14%;
+}
+.downward a{
+  text-decoration: none;
+  color:white;
+}
+.downward:hover .dropbtn {
+    background-color: #3e8e41;
+}
+.mean {
+    position: relative;
+    display: inline-block;
+    float:left;
+    width:14%;
+}
+.mean a{
+    text-decoration: none;
+    color: white;
+}
+.stat {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.stat a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.stat a:hover {background-color: #ddd}
+
+.mean:hover .stat {
+    display: block;
+}
+.mean:hover .dropbtn {
+    background-color: #3e8e41;
+}
+.mode {
+    position: relative;
+    display: inline-block;
+    float:left;
+    width:14%;
+}
+.mode a{
+    text-decoration: none;
+    color: white;
+}
+.file {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.file a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.file a:hover {background-color: #ddd}
+.mode:hover .file {
+    display: block;
+}
+.mode:hover .dropbtn {
+    background-color: #3e8e41;
+}
+.median {
+    position: relative;
+    display: inline-block;
+    float:left;
+    width: 14%;
+
+}
+.median a{
+    text-decoration: none;
+    color: white;
+}
+.folder {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.folder a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.folder a:hover {background-color: #ddd}
+
+.median:hover .folder {
+    display: block;
+}
+.median:hover .dropbtn {
+    background-color: #3e8e41;
+}
+.word {
+    position: relative;
+    display: inline-block;
+    float:left;
+    width:14%;
+}
+.word a{
+    text-decoration: none;
+    color: white;
+}
+
+.word:hover .document {
+    display: block;
+}
+
+.word:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
